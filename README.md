@@ -8,6 +8,8 @@ English | [日本語](README.ja.md)
 
 An Obsidian plugin that reloads the open note when another program changes it on disk.
 
+![A shared task list is edited by another program. The open note updates within seconds and a notice appears.](media/demo.gif)
+
 Obsidian normally notices outside changes by itself. On network drives (NAS, SMB shares) and some sync folders, it may not be told about them. In that case the note on screen stays out of date until you reopen it or restart Obsidian. This plugin picks up changes to the open note so that it does not stay out of date.
 
 ## Features
@@ -19,6 +21,8 @@ Obsidian normally notices outside changes by itself. On network drives (NAS, SMB
 - **Supports English and Japanese**: follows Obsidian's language setting.
 
 ## Settings
+
+![Plugin settings](media/settings.png)
 
 | Setting | Default | What it does |
 |---|---|---|
