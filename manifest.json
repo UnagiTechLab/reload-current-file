@@ -1,0 +1,11 @@
+{
+  "id": "reload-current-file",
+  "name": "Reload Current File",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Reload the open note when another program changes it on disk. Helpful on network drives and sync folders.",
+  "author": "Maritea",
+  "authorUrl": "https://github.com/UnagiTechLab",
+  "fundingUrl": "https://ko-fi.com/unagitech",
+  "isDesktopOnly": true
+}
