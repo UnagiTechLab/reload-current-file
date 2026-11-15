@@ -8,15 +8,15 @@ English | [日本語](README.ja.md)
 
 An Obsidian plugin that reloads the open note when another program changes it on disk.
 
-Obsidian normally notices outside changes by itself. On network drives (NAS, SMB shares) and some sync folders, it is often not told about them, so the note on screen stays out of date until you reopen it or restart Obsidian. This plugin fixes that for the note you are looking at.
+Obsidian normally notices outside changes by itself. On network drives (NAS, SMB shares) and some sync folders, it may not be told about them. In that case the note on screen stays out of date until you reopen it or restart Obsidian. This plugin picks up changes to the open note so that it does not stay out of date.
 
 ## Features
 
 - **Automatic reload**: checks the open note every few seconds and reloads it when the file on disk is newer.
-- **Keeps your place**: the cursor and scroll position stay where they were.
+- **Keeps the view position**: the cursor and scroll position stay where they were.
 - **Manual reload**: the command **Reload current file from disk**. You can assign a hotkey in **Settings → Hotkeys**.
-- **Works in both views**: editing view (Live Preview and Source mode) and Reading view.
-- **English and Japanese** interface, following Obsidian's language setting.
+- **Supports editing and Reading views**: editing view (Live Preview and Source mode) and Reading view.
+- **Supports English and Japanese**: follows Obsidian's language setting.
 
 ## Settings
 
@@ -28,7 +28,7 @@ Obsidian normally notices outside changes by itself. On network drives (NAS, SMB
 
 ## Install
 
-**From Community plugins** (after the plugin is listed)
+**From Community plugins** (after the plugin passes Obsidian's review and is listed in Community plugins)
 
 1. **Settings → Community plugins → Browse**
 2. Search for **Reload Current File** and select **Install**, then **Enable**.
@@ -43,11 +43,11 @@ Obsidian normally notices outside changes by itself. On network drives (NAS, SMB
 
 - Only the note in the active pane is checked. Other notes show the latest content when you open them.
 - If you are typing in a note while another program changes the same file, the outside change wins and your last unsaved keystrokes (usually the last second or two) can be lost. Avoid editing the same file in two programs at the same time.
-- Desktop only.
+- Supported on desktop only.
 
 ## Privacy
 
-This plugin makes no network requests and collects no data. It only reads the note that is open in your vault.
+This plugin makes no network requests and collects no data. It only works with the note that is open in your vault.
 
 ## License
 
@@ -57,7 +57,7 @@ Keep the copyright notice when you modify or redistribute.
 
 ## Disclaimer
 
-This plugin is provided "as is", without warranty of any kind, as stated in the [license](LICENSE). Keep backups of your vault. Unagi Tech Inc. is not liable for any loss of data or other damage arising from its use.
+This plugin is provided "as is", as stated in the [license](LICENSE). Keep backups of your vault. Unagi Tech Inc. is not liable for any loss of data or other damage arising from its use.
 
 This is an independently developed plugin. It is not made, endorsed or supported by Obsidian (Dynalist Inc.).
 
