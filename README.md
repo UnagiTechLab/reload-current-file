@@ -2,6 +2,8 @@
 
 **Unagi Tech Inc.（株式会社うなぎテック）** · MIT License
 
+English | [日本語](README.ja.md)
+
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20us-e11982?logo=ko-fi&logoColor=white)](https://ko-fi.com/unagitech)
 
 An Obsidian plugin that reloads the open note when another program changes it on disk.
@@ -57,7 +59,7 @@ Keep the copyright notice when you modify or redistribute.
 
 This plugin is provided "as is", without warranty of any kind, as stated in the [license](LICENSE). Keep backups of your vault. Unagi Tech Inc. is not liable for any loss of data or other damage arising from its use.
 
-This is an independent plugin. It is not made, endorsed or supported by Obsidian (Dynalist Inc.).
+This is an independently developed plugin. It is not made, endorsed or supported by Obsidian (Dynalist Inc.).
 
 ## Support
 
