@@ -34,14 +34,14 @@ Obsidian normally notices outside changes by itself. On network drives (NAS, SMB
 
 ## Install
 
-**From Community plugins** (after the plugin passes Obsidian's review and is listed in Community plugins)
+**From Community plugins**
 
 1. **Settings → Community plugins → Browse**
 2. Search for **Reload Current File** and select **Install**, then **Enable**.
 
 **Manually**
 
-1. Download `main.js` and `manifest.json` from the [latest release](../../releases/latest).
+1. Download `main.js` and `manifest.json` from the [latest release](https://github.com/UnagiTechLab/reload-current-file/releases/latest).
 2. Put them in `<your vault>/.obsidian/plugins/reload-current-file/`.
 3. **Settings → Community plugins**: select the reload button next to **Installed plugins**, then enable **Reload Current File**.
 
@@ -77,4 +77,4 @@ Tips are optional (Ko-fi). They help us keep shipping and maintaining free tools
 
 - Lab org: [UnagiTechLab](https://github.com/UnagiTechLab)
 - Company: [unagi.tech](https://www.unagi.tech)
-- Bug reports and requests: [Issues](../../issues)
+- Bug reports and requests: [Issues](https://github.com/UnagiTechLab/reload-current-file/issues)

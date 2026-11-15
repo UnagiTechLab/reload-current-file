@@ -34,14 +34,14 @@ Obsidian は、ほかのアプリによるファイルの変更を、ふだん�
 
 ## インストール
 
-**コミュニティプラグインから**（Obsidian の審査を通り、コミュニティプラグインの一覧に載ったあと）
+**コミュニティプラグインから**
 
 1. 設定 → コミュニティプラグイン →「閲覧」を開く
 2. 「Reload Current File」を探してインストールし、有効化する
 
 **手動でインストールする**
 
-1. [最新のリリース](../../releases/latest)から `main.js` と `manifest.json` をダウンロードする
+1. [最新のリリース](https://github.com/UnagiTechLab/reload-current-file/releases/latest)から `main.js` と `manifest.json` をダウンロードする
 2. `<Vault>/.obsidian/plugins/reload-current-file/` に置く
 3. 設定 → コミュニティプラグインで、「インストール済みプラグイン」の横にある再読み込みのボタンを押し、「Reload Current File」をオンにする
 
@@ -77,4 +77,4 @@ Obsidian は、ほかのアプリによるファイルの変更を、ふだん�
 
 - Lab：[UnagiTechLab](https://github.com/UnagiTechLab)
 - 会社：[unagi.tech](https://www.unagi.tech)
-- 不具合の報告・要望：[Issues](../../issues)
+- 不具合の報告・要望：[Issues](https://github.com/UnagiTechLab/reload-current-file/issues)
