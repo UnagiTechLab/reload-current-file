@@ -20,6 +20,8 @@ Obsidian normally notices outside changes by itself. On network drives (NAS, SMB
 - **Supports editing and Reading views**: editing view (Live Preview and Source mode) and Reading view.
 - **Supports English and Japanese**: follows Obsidian's language setting.
 
+![Reload current file from disk in the command palette](media/command.png)
+
 ## Settings
 
 ![Plugin settings](media/settings.png)
